@@ -1,0 +1,72 @@
+.student-section {
+  background-color: #f0f4f8;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c3e50;
+}
+
+.student-section .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.student-section h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.student-section p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.6;
+  color: #4a5a6a;
+}
+
+.student-section ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 30px 0;
+  text-align: left;
+  display: inline-block;
+  font-size: 1.05rem;
+  color: #34495e;
+}
+
+.student-section ul li {
+  margin-bottom: 12px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.student-section ul li::before {
+  content: '✔️'; /* checkmark emoji for bullets */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2rem;
+}
+
+.student-section button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.student-section button:hover {
+  background-color: #0056b3;
+}
+
+.student-section .note {
+  margin-top: 35px;
+  font-style: italic;
+  font-size: 1rem;
+  color: #7f8c8d;
+}
