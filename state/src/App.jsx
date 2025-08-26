@@ -1,16 +1,14 @@
-import { useState } from 'react'
+import State from './State'
 
-function App(name,surname) {
-  const [count, setCount] = useState(0)
-
-  return (
-    
-    <>
-    <h1>name - {name}</h1>
-    <h2>surname - {surname}</h2>
-      
-    </>
-  )
+function App() {
+    return(
+      <>
+      <State name={"Bhavik"} surname={"Sirvi"}/> <hr/>
+      <State name={"Krish"} surname={"Vadodra"}/> <hr/>
+      <State name={"Madhav"} surname={"Raninga"}/> <hr/>
+      <State name={"Ankit"} surname={"Sabariya"}/> <hr/>
+      </>
+    )
 }
 
 export default App
