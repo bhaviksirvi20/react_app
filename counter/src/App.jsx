@@ -11,7 +11,7 @@ function App() {
   let hendleplus = (() => {
     setCount(count + 1)
   })
-  let hendleminus = (() => {``
+  let hendleminus = (() => {
     if(count > 0 ){
       setCount(count - 1)
     }
